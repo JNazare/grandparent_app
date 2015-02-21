@@ -4,8 +4,8 @@ from flask_oauth import OAuth
 
 SECRET_KEY = 'development key'
 DEBUG = True
-FACEBOOK_APP_ID = '1549335035342839'
-FACEBOOK_APP_SECRET = '6f3f5dd07c15cd5579b51b4751e07a24'
+FACEBOOK_APP_ID = ''
+FACEBOOK_APP_SECRET = ''
 
 
 app = Flask(__name__)
