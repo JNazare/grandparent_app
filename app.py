@@ -21,5 +21,9 @@ def index():
 def create():
     return render_template('create.html')
 
+@app.route('/login')
+def login():
+    return 'logging in'
+
 if __name__ == '__main__':
     app.run()
