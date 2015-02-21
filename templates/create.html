@@ -4,33 +4,108 @@
 <header>
 
 <div class="container send-postcard-container">
-	<div class="col-lg-12 col-xs-12 no-padding">
+	<div class="col-lg-12 col-xs-12 no-padding choose-photo-container">
 		
+		<div class="col-lg-12 no-padding">
+
+			<div class="col-lg-12 col-xs-12 no-padding step-label">
+				<h4>Choose a Photo</h4>
+			</div>
+			
+		</div>
+
 		<div class="col-lg-12 no-padding">
 			<div class="col-lg-2 no-padding step-circle">
 			1
 			</div>
 
-			<div class="col-lg-10 no-padding step-label">
-			<h4>Choose a Photo</h4>
+			<div class="info-container">
+			PHOTOS 
 			</div>
 			
 		</div>
 
 		<div class="col-lg-12 no-padding">
-			<div id="view_images" style="background-color: #BF1B5C; height: 500px; margin-top: 10px; color: white; padding: 20px; opacity: 0.8">
+			<div style="background-color: #BF1B5C; height: 500px; margin-top: 10px; color: white; padding: 20px; opacity: 0.8">
 			PHOTOS 
                 <fb:login-button scope="public_profile,email,user_photos" onlogin="checkLoginState();">
                 </fb:login-button>
 
+                <div id="view_images"></div>
+			
+			<button class="btn btn-primary col-lg-offset-11 xol-xs-offset-11 choose-photo-button"></i>NEXT</button>
+			
+		</div>
+
+	</div>
+
+	<div class="col-lg-12 col-xs-12 no-padding add-message-container">
+		
+		<div class="col-lg-12 no-padding">
+
+			<div class="col-lg-12 col-xs-12 no-padding step-label">
+				<h4>Add a Message</h4>
 			</div>
 			
 		</div>
 
 		<div class="col-lg-12 no-padding">
-			<button class="btn btn-primary col-lg-offset-11 xol-xs-offset-11"></i>NEXT</button>
+
+			<div class="col-lg-2 no-padding step-circle">
+			2
+			</div>
+
+			<div class="info-container">
+			<form role="form">
+		    <div class="form-group">
+		      <textarea class="form-control" rows="8" id="message" placeholder="Add your message here!"></textarea>
+		    </div>
+		  </form>
+			</div>
+			
 		</div>
 
+		<div class="col-lg-12 no-padding">
+			
+			<button class="btn btn-primary col-lg-offset-11 xol-xs-offset-11 add-message-button"></i>NEXT</button>
+			
+		</div>
+
+	</div>
+
+	<div class="col-lg-12 col-xs-12 no-padding add-recipient-container">
+		
+		<div class="col-lg-12 no-padding">
+
+			<div class="col-lg-12 col-xs-12 no-padding step-label">
+			<h4>Send a Postcard</h4>
+			</div>
+			
+		</div>
+
+		<div class="col-lg-12 no-padding">
+			<div class="col-lg-2 no-padding step-circle">
+			3
+			</div>
+
+			<div class="info-container">
+			<div class="form-group">
+				  <label for="usr">To</label>
+				  <input type="text" class="form-control" id="usr">
+				</div>
+				<div class="form-group">
+				  <label for="pwd">Address</label>
+				   <textarea class="form-control" rows="8" id="address" placeholder="Recipient address here"></textarea>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="col-lg-12 no-padding">
+			
+			<button class="btn btn-primary col-lg-offset-11 xol-xs-offset-11 add-message-button"></i>Send</button>
+			
+		</div>
 
 	</div>
 
