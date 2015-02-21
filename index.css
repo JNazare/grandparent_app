@@ -128,3 +128,12 @@
 	padding-right: 20px;
 	margin-top: 10px;
 }
+
+.add-message-container {
+	display: none;
+}
+
+.add-recipient-container {
+	display: none;
+}
+
