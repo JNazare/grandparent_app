@@ -108,13 +108,13 @@
 	height: 50px;
 	color: white;
 	padding: 10px;
-	margin-top: 5px;
+	margin-top: 10px;
 	text-align: center;
 	font-size: 20px;
 }
 
 .send-postcard-container .step-label {
-	margin-left: 10px;
+	margin-left: 70px;
 	margin-top: 10px;
 }
 
@@ -130,10 +130,20 @@
 }
 
 .add-message-container {
-	display: none;
+	display: none; 
 }
 
 .add-recipient-container {
-	display: none;
+	display: none; 
 }
 
+
+.info-container {
+	background-color: #dddddd; 
+	margin-top: 10px; 
+	color: black; 
+	border-radius: 2px; 
+	padding: 20px; 
+	margin-left:70px; 
+	opacity: 0.8
+}
