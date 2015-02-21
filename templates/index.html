@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% block contents %}
+  {% for photo_url in viewable_photos %}
+    <img src="{{photo_url}}">
+  {% endfor %}
+{% endblock %}
